@@ -12,8 +12,8 @@
 // Define the palettes for your theme using the Material Design palettes available in palette.scss
 // (imported above). For each palette, you can optionally specify a default, lighter, and darker
 // hue. Available color palettes: https://material.io/design/color/
-$Tekki-primary: mat-palette($mat-indigo);
-$Tekki-accent: mat-palette($mat-pink, A200, A100, A400);
+$Tekki-primary: mat-palette($mat-deep-orange);
+$Tekki-accent: mat-palette($mat-indigo);
 
 // The warn palette is optional (defaults to red).
 $Tekki-warn: mat-palette($mat-red);
