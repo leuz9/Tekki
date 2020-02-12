@@ -124,6 +124,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Tekki"
+    }
+  },
+  "defaultProject": "Tekki",
+  "cli": {
+    "analytics": "45bd1d72-fe36-4698-9770-9d8b96d5c6c1"
+  }
 }
