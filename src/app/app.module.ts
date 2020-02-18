@@ -18,9 +18,11 @@ import { HomeComponent } from './shared/component/home/home.component';
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { VideoComponent } from './shared/component/video/video.component';
+import { YouTubePlayerModule } from '@angular/youtube-player';
 
 @NgModule({
-  declarations: [AppComponent, ToolbarComponent, HomeComponent],
+  declarations: [AppComponent, ToolbarComponent, HomeComponent, VideoComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -33,6 +35,7 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
     MatSidenavModule,
     MatIconModule,
     MatListModule,
+    YouTubePlayerModule,
     TranslateModule.forRoot({
       loader: {
         provide: TranslateLoader,
