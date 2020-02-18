@@ -1,7 +1,7 @@
 <div class="home-page">
   <div class="home-container">
     <div class="home-block" fxLayout="column" fxLayoutAlign="center center">
-      <div class="home-title">{{ 'question_one' | translate }}</div>
+      <div class="home-title">{{ "question_one" | translate }}</div>
       <div
         class="block-card"
         fxLayout="row"
@@ -15,7 +15,9 @@
               alt="students"
             />
           </div>
-          <div class="home-card-title">{{ 'students' | translate | uppercase }}</div>
+          <div class="home-card-title">
+            {{ "students" | translate | uppercase }}
+          </div>
         </div>
         <div fxLayout="column" fxLayoutAlign="space-around center">
           <div class="home-card" fxLayoutAlign="center center">
@@ -25,7 +27,9 @@
               alt="schools"
             />
           </div>
-          <div class="home-card-title">{{ 'schools' | translate | uppercase }}</div>
+          <div class="home-card-title">
+            {{ "schools" | translate | uppercase }}
+          </div>
         </div>
         <div fxLayout="column" fxLayoutAlign="space-around center">
           <div class="home-card" fxLayoutAlign="center center">
@@ -35,7 +39,9 @@
               alt="bussiness"
             />
           </div>
-          <div class="home-card-title">{{ 'enterprises' | translate | uppercase }}</div>
+          <div class="home-card-title">
+            {{ "enterprises" | translate | uppercase }}
+          </div>
         </div>
         <div fxLayout="column" fxLayoutAlign="space-around center">
           <div class="home-card" fxLayoutAlign="center center">
@@ -45,19 +51,30 @@
               alt="question"
             />
           </div>
-          <div class="home-card-title">{{ 'others' | translate | uppercase }}</div>
+          <div class="home-card-title">
+            {{ "others" | translate | uppercase }}
+          </div>
         </div>
       </div>
     </div>
   </div>
+
+
+
+
   <div
     class="home-pallet"
     fxLayout="column"
     fxLayoutAlign="space-around center"
   >
-    <div class="bloc-pallet" fxLayout="row" fxLayoutGap="20px" fxLayoutAlign="center center">
+    <div
+      class="bloc-pallet"
+      fxLayout="row"
+      fxLayoutAlign="center center"
+    >
       <img
         class="img-card"
+        fxFlex="50"
         src="../../../../assets/images/home/Scholarships.png"
         alt="question"
       />
@@ -70,18 +87,24 @@
         </p>
       </div>
     </div>
-    <div class="bloc-pallet" fxLayout="row" fxLayoutGap="20px" fxLayoutAlign="center center">
-      <div class="text-card" fxLayout="column" fxLayoutAlign="center start">
+    <div
+      class="bloc-pallet"
+      fxLayout="row"
+      fxLayoutAlign="center center"
+    >
+      <div class="text-card" fxLayout="column" fxFlex="50" fxLayoutAlign="center start">
         <p class="title">Be part of the adventure</p>
         <p class="content">
           Everyone deserves an equal opportunity to write their future
         </p>
       </div>
       <img
+      fxFlex="50"
         class="img-card"
         src="../../../../assets/images/home/Scholarships1.png"
         alt="question"
       />
     </div>
   </div>
+  <app-video></app-video>
 </div>
