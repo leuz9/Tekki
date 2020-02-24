@@ -3,5 +3,7 @@
       "students": "students",
       "schools": "schools",
       "enterprises": "enterprises",
-      "others": "others"
+      "others": "others",
+      "language": "language"
+
 }
