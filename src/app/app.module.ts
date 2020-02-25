@@ -20,9 +20,10 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { VideoComponent } from './shared/component/video/video.component';
 import { YouTubePlayerModule } from '@angular/youtube-player';
+import { FooterComponent } from './shared/component/footer/footer.component';
 
 @NgModule({
-  declarations: [AppComponent, ToolbarComponent, HomeComponent, VideoComponent],
+  declarations: [AppComponent, ToolbarComponent, HomeComponent, VideoComponent, FooterComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,

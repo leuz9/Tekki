@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Open+Sans&display=swap" rel="stylesheet');
+
 
 // Custom Theming for Angular Material
 // For more information: https://material.angular.io/guide/theming
@@ -57,4 +59,4 @@ $Tekki-theme: mat-light-theme($Tekki-primary, $Tekki-accent, $Tekki-warn);
 /* You can add global styles to this file, and also import other style files */
 
 html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+body { margin: 0; font-family: Lato, "Helvetica Neue", sans-serif; }

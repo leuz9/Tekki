@@ -1,0 +1,58 @@
+.footer-container {
+  width: 100%;
+  background: #000;
+  margin-top: 100px;
+  height: 200px;
+  color: #fff;
+
+  p {
+    margin-left: 10%;
+  }
+
+}
+
+svg {
+  display: block;
+  font: 10.5em "Tekki";
+  width: 460px;
+}
+
+.text-copy {
+  fill: none;
+  stroke: white;
+  stroke-dasharray: 6% 29%;
+  stroke-width: 5px;
+  stroke-dashoffset: 0%;
+  animation: stroke-offset 5.5s infinite linear;
+}
+
+.text-copy:nth-child(1) {
+  stroke: orange;
+  animation-delay: -1;
+}
+
+.text-copy:nth-child(2) {
+  stroke: #fff;
+  animation-delay: -2s;
+}
+
+.text-copy:nth-child(3) {
+  stroke: orange;
+  animation-delay: -3s;
+}
+
+.text-copy:nth-child(4) {
+  stroke: #fff;
+  animation-delay: -4s;
+}
+
+.text-copy:nth-child(5) {
+  stroke: orange;
+  animation-delay: -5s;
+}
+
+@keyframes stroke-offset {
+  100% {
+    stroke-dashoffset: -35%;
+  }
+}

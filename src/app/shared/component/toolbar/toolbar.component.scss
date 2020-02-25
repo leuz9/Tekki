@@ -14,3 +14,29 @@
   width: 100px;
   height: auto;
 }
+
+.toolbar {
+  height: 100px;
+
+  .signin-btn {
+    font-size: 18px;
+    margin-left: 100px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #000;
+  }
+
+  .register{
+    background: #F39200;
+    font-size: 14px;
+    margin-right: 100px;
+    color: #fff;
+  }
+}
+
+.language-selector {
+  width: 100px;
+  color: #000;
+  font-size: 18px;
+}
