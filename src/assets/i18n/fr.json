@@ -4,5 +4,8 @@
   "schools": "ecoles",
   "enterprises": "entreprises",
   "others": "autres",
-  "language": "langue"
+  "language": "langue",
+  "selectedLanguage": "fr",
+  "sign_in": "se connecter",
+  "register": "s'enregistrer"
 }

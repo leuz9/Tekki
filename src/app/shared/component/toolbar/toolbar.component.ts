@@ -14,8 +14,8 @@ export interface Lang {
 export class ToolbarComponent implements OnInit {
 
   langs: Lang[] = [
-    {value: 'fr', viewValue: 'FR'},
-    {value: 'en', viewValue: 'EN'},
+    {value: 'fr', viewValue: 'FRANCAIS'},
+    {value: 'en', viewValue: 'ENGLISH'},
   ];
 
   constructor(private translate: TranslateService) {

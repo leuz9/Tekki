@@ -22,9 +22,18 @@
       </div>
       <span class="menu-spacer"></span>
       <div fxShow="true" fxHide.lt-md fxLayoutAlign="space-around center">
+
         <mat-form-field class="language-selector">
           <mat-label>{{ "language" | translate }}</mat-label>
           <mat-select>
+            <mat-select-trigger>
+              <div fxLayoutAlign="start center" fxLayoutGap="5px">
+                <mat-icon inline="true">
+                  language
+                </mat-icon>
+                <span>{{ 'selectedLanguage' |translate | uppercase }}</span>
+              </div>
+            </mat-select-trigger>
             <mat-option
               *ngFor="let lang of langs"
               [value]="lang.value"

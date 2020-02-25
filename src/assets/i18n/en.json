@@ -4,6 +4,10 @@
       "schools": "schools",
       "enterprises": "enterprises",
       "others": "others",
-      "language": "language"
+      "language": "language",
+      "selectedLanguage": "en",
+      "sign_in": "sign in",
+      "register": "register"
+
 
 }
