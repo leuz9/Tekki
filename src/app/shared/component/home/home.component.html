@@ -4,7 +4,7 @@
       <div class="home-title">{{ "question_one" | translate }}</div>
       <div
         class="block-card"
-        fxLayout="row"
+        fxLayout="row wrap"
         fxLayoutAlign="space-around center"
       >
         <div fxLayout="column" fxLayoutAlign="space-around center">
@@ -59,25 +59,14 @@
     </div>
   </div>
 
-
-
-
   <div
     class="home-pallet"
     fxLayout="column"
     fxLayoutAlign="space-around center"
+    fxLayoutGap="20px"
   >
-    <div
-      class="bloc-pallet"
-      fxLayout="row"
-      fxLayoutAlign="center center"
-    >
-      <img
-        class="img-card"
-        fxFlex="50"
-        src="../../../../assets/images/home/Scholarships.png"
-        alt="question"
-      />
+    <div class="bloc-pallet" fxLayout="row" fxLayoutAlign="center center" fxLayoutGap="20px">
+      <div class="img-card-first" fxFlex="50"></div>
       <div class="text-card" fxLayout="column" fxLayoutAlign="center start">
         <p class="title">Building the future</p>
         <p class="content">
@@ -87,27 +76,22 @@
         </p>
       </div>
     </div>
-    <div
-      class="bloc-pallet"
-      fxLayout="row"
-      fxLayoutAlign="center center"
-    >
-      <div class="text-card" fxLayout="column" fxFlex="50" fxLayoutAlign="center start">
+    <div class="bloc-pallet" fxLayout="row" fxLayoutAlign="center center">
+      <div
+        class="text-card"
+        fxLayout="column"
+        fxFlex="50"
+        fxLayoutAlign="center start"
+      >
         <p class="title">Be part of the adventure</p>
         <p class="content">
           Everyone deserves an equal opportunity to write their future
         </p>
       </div>
-      <img
-      fxFlex="50"
-        class="img-card"
-        src="../../../../assets/images/home/Scholarships1.png"
-        alt="question"
-      />
+      <div class="img-card-second" fxFlex="50"></div>
+    </div>
+    <div class="container" fxLayoutAlign="center center">
+      <app-video></app-video>
     </div>
   </div>
-  <div class="container" fxLayoutAlign="center center">
-    <app-video></app-video>
-  </div>
-
 </div>

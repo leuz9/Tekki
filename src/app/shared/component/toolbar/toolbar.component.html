@@ -35,8 +35,9 @@
           </mat-select>
         </mat-form-field>
 
-        <a href="#" mat-button>Sign In</a>
-        <a href="#" mat-button>Register</a>
+
+        <a class="signin-btn" href="#" mat-button>{{ 'sign_in' | translate | titlecase }}</a>
+        <button class="register" mat-flat-button >{{ 'register' | translate | titlecase }}</button>
       </div>
     </mat-toolbar-row>
   </mat-toolbar>

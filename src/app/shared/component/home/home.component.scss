@@ -44,6 +44,7 @@
 }
 
 .home-pallet {
+  max-width: 900px;
   width: 100%;
   margin: auto;
   margin-top: 100px;
@@ -52,8 +53,18 @@
     width: 100%;
   }
 
-  .img-card {
+  .img-card-first {
     height: 600px;
+    background-image: url('../../../../assets/images/home/Scholarships.png');
+    background-size: cover ;
+    background-repeat: no-repeat;
+  }
+
+  .img-card-second {
+    height: 600px;
+    background-image: url('../../../../assets/images/home/Scholarships1.png');
+    background-size: cover ;
+    background-repeat: no-repeat;
   }
 
   .text-card {
