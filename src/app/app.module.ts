@@ -21,9 +21,17 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { VideoComponent } from './shared/component/video/video.component';
 import { YouTubePlayerModule } from '@angular/youtube-player';
 import { FooterComponent } from './shared/component/footer/footer.component';
+import { FrontOfficeComponent } from './front-office/front-office.component';
+import { StudentComponent } from './front-office/components/student/student.component';
+import { SchoolComponent } from './front-office/components/school/school.component';
+import { EnterpriseComponent } from './front-office/components/enterprise/enterprise.component';
+import { OtherComponent } from './front-office/components/other/other.component';
+import { SigninComponent } from './front-office/components/student/signin/signin.component';
+import { SignupComponent } from './front-office/components/student/signup/signup.component';
+import { DashboardComponent } from './front-office/components/student/dashboard/dashboard.component';
 
 @NgModule({
-  declarations: [AppComponent, ToolbarComponent, HomeComponent, VideoComponent, FooterComponent],
+  declarations: [AppComponent, ToolbarComponent, HomeComponent, VideoComponent, FooterComponent, FrontOfficeComponent, StudentComponent, SchoolComponent, EnterpriseComponent, OtherComponent, SigninComponent, SignupComponent, DashboardComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
